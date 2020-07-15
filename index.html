@@ -125,14 +125,22 @@ Prev Book   Prev Chapter    Next Chapter   Next Book    `;
         // Напишите функцию range, принимающую два аргумента, начало и конец диапазона, и возвращающую массив, который содержит все числа из него, включая начальное и конечное.
 
         // let a = 1,
-        //     b = 10;
-
+        // b = 10;
         // function number(a, b) {
-
         // }
-
         // number(a, b)
 
+        let a = 1;
+        let b = 10;
+        function range(a, b) {
+            let number = [];
+            for (let i = a; i <= b; i++) {
+                number.push(i);
+            }
+            return number;
+        }
+
+        console.log(`Задача 6: ${range(a, b)}`);
 
 
 
